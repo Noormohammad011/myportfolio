@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_6WfbHRDcKxbZeeScprByO");
+        })();
+    </script>
+    <title>Resume Website</title>
+</head>
+
+<body class="row bg-dark text-light position-relative w-100 text-shadow">
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-dark bg-dark vh-100 col-1 d-md-none" style="width: 80px">
+        <div class="container">
+            <div>
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-4">
+                    <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Home">
+                        <a href="#" class="nav-link active" aria-current="page"><i
+                                class="bi bi-house text-success"></i></a>
+                    </li>
+                    <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="About">
+                        <a href="#About" class="nav-link"><i class="bi bi-person"></i></a>
+                    </li>
+                    <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Projects">
+                        <a href="#Projects" class="nav-link"><i class="bi bi-briefcase"></i></a>
+                    </li>
+                    <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Contact">
+                        <a href="#Contact" class="nav-link"><i class="bi bi-telephone"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- HEADER -->
+    <header class="position-relative vh-100 col-10 col-md-4" style="
+        background: url(https://scontent.fdac135-1.fna.fbcdn.net/v/t1.6435-9/93780594_2619345371659231_3667382122043146240_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeGZJ6CJL68TjNxI4GR7iNvRYqP7BfUjN9pio_sF9SM32t4tvxV1g-W_vpsgpzh7dzPlfbYCo0e3ubszXFF5rRji&_nc_ohc=izswU9ROq44AX_Px2zG&tn=pG9EAMjOvEQ0Ro65&_nc_ht=scontent.fdac135-1.fna&oh=93805f2db71591846a3c7e099ff3a327&oe=61CBDEAC) center/cover
+          no-repeat;
+      ">
+        <div class="position-relative top-50 mt-5 row row-cols-1 text-center">
+            <h2 class="display-5 fw-bolder lh-lg">Noor Mohammad</h2>
+            <h4 class="font-monospace">Full Stack Web Developer</h4>
+            <div class="row mt-3 mx-auto">
+                <ul class="row list-unstyled fs-5">
+                    <li class="col">
+                        <a href="https://www.facebook.com/profile.php?id=100007513814577" target="_blank"><i
+                                class="bi bi-facebook text-light"></i></a>
+                    </li>
+                    <li class="col">
+                        <a href="https://github.com/Noormohammad011" target="_blank"><i
+                                class="bi bi-github text-light"></i></a>
+                    </li>
+                    <li class="col">
+                        <a href="https://www.linkedin.com/in/noor-mohammad-a39415218/" target="_blank"><i
+                                class="bi bi-linkedin text-light"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- MAIN -->
+    <main class="row col-12 col-md-8 mb-5">
+        <!-- MAIN > ABOUT -->
+        <section id="About" class="ms-3">
+            <h2 class="font-monospace mt-4 text-uppercase">about me</h2>
+            <p class="text-secondary mt-3">
+                To excel in a job that both challenges me and inspires me while pushing me to work to the best of my
+                ability and produce
+                the highest quality
+                work.
+            </p>
+            <!-- ABOUT > CV BUTTON & CONTENT-->
+            <!-- CV BUTTON-->
+            <a href='./resume_noormohammad.pdf' class="btn btn-outline-success" type="button"
+                title="Noor Mohammad Resume" download>
+                <i class="bi bi-download"><span class='mx-2'>Resume</span></i>
+            </a>
+        </section>
+        <!-- MAIN > Projects -->
+        <section id="Projects" class="ms-3">
+            <h2 class="font-monospace mt-4 text-uppercase">Projects</h2>
+            <div class="row row-cols-1 row-cols-md-2">
+                <!-- Ecommerce -->
+                <div class="col card bg-transparent">
+                    <img src="./images/proshop.PNG" class="card-img-top img-fluid img-thumbnail" alt="proshop"
+                        style="width: 100%; height:50vh">
+                    <div class="card-body">
+
+                        <h5 class="card-title mt-3">Ecommerce Website</h5>
+                        <p class="card-text">
+                            This is a ecommerce website that sells products and services.
+                        </p>
+                        <button class="btn btn-outline-success w-100" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#oc_ecommerce" aria-controls="oc_ecommerce">
+                            more...
+                        </button>
+                        <!-- development > offcanvas -->
+                        <div class="offcanvas offcanvas-end w-75 bg-dark" tabindex="-1" id="oc_ecommerce">
+                            <div class="offcanvas-header">
+                                <h5 class="text-success">Ecommerce Website</h5>
+                                <button type="button" class="btn-close btn-close-white"
+                                    data-bs-dismiss="offcanvas"></button>
+                            </div>
+                            <div class="offcanvas-body">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Drone Website -->
+                <div class="col card bg-transparent">
+                    <img src="./images/drone.PNG" class="card-img-top img-fluid img-thumbnail" alt="proshop"
+                        style="width: 100%; height:50vh">
+                    <div class="card-body">
+
+                        <h5 class="card-title mt-3">Drone Website</h5>
+                        <p class="card-text">
+                            This is a drone website that sells drones and services.
+                        </p>
+                        <button class="btn btn-outline-success w-100" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#oc_drone" aria-controls="oc_drone">
+                            more...
+                        </button>
+                        <!-- development > offcanvas -->
+                        <div class="offcanvas offcanvas-end w-75 bg-dark" tabindex="-1" id="oc_drone">
+                            <div class="offcanvas-header">
+                                <h5 class="text-success">Drone Website</h5>
+                                <button type="button" class="btn-close btn-close-white"
+                                    data-bs-dismiss="offcanvas"></button>
+                            </div>
+                            <div class="offcanvas-body">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- data base -->
+                <div class="col card bg-transparent">
+                    <div class="card-body">
+                        <i class="bi bi-display h1 text-success"></i>
+                        <h5 class="card-title mt-3">data base</h5>
+                        <p class="card-text">
+                            Building a custom tailored solution based on your technical
+                            specification..
+                        </p>
+                        <button class="btn btn-outline-success w-100" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#oc_db" aria-controls="oc_db">
+                            more...
+                        </button>
+                        <!-- data base > offcanvas -->
+                        <div class="offcanvas offcanvas-end w-75 bg-dark" tabindex="-1" id="oc_db">
+                            <div class="offcanvas-header">
+                                <h5 class="text-success">Drone Website</h5>
+                                <button type="button" class="btn-close btn-close-white"
+                                    data-bs-dismiss="offcanvas"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <i class="fas fa-database fa-4x mb-4"></i>
+                                <h4 class="display-4 mb-3">What is Database?</h4>
+                                <p class="text-white-50">
+                                    A database is an organized collection of structured
+                                    information, or data, typically stored electronically in a
+                                    computer system. A database is usually controlled by a
+                                    database management system (DBMS). ... Most databases use
+                                    structured query language (SQL) for writing and querying
+                                    data.
+                                </p>
+                                <h4 class="display-4 mb-3">
+                                    Database Management System (DBMS)
+                                </h4>
+                                <p class="text-white-50">
+                                    A database management system (DBMS) is a software package
+                                    designed to define, manipulate, retrieve and manage data in
+                                    a database. A DBMS generally manipulates the data itself,
+                                    the data format, field names, record structure and file
+                                    structure. It also defines rules to validate and manipulate
+                                    this data.
+                                </p>
+                                <h4 class="display-4 mb-3">
+                                    What are the types of databases?
+                                </h4>
+                                <ul class="text-white-50">
+                                    <li>NoSQL databases.</li>
+                                    <li>Cloud databases.</li>
+                                    <li>Columnar databases.</li>
+                                    <li>Wide column databases.</li>
+                                    <li>Object-oriented databases.</li>
+                                    <li>Key-value databases.</li>
+                                    <li>Hierarchical databases.</li>
+                                    <li>Document databases.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- data security -->
+                <div class="col card bg-transparent">
+                    <div class="card-body">
+                        <i class="bi bi-display h1 text-success"></i>
+                        <h5 class="card-title mt-3">data security</h5>
+                        <p class="card-text">
+                            Building a custom tailored solution based on your technical
+                            specification..
+                        </p>
+                        <button class="btn btn-outline-success w-100" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#oc_ds" aria-controls="oc_ds">
+                            more...
+                        </button>
+                        <!-- data security > offcanvas -->
+                        <div class="offcanvas offcanvas-end w-75 bg-dark" tabindex="-1" id="oc_ds">
+                            <div class="offcanvas-header">
+                                <h5 class="text-success">data security</h5>
+                                <button type="button" class="btn-close btn-close-white"
+                                    data-bs-dismiss="offcanvas"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <i class="fas fa-shiled-alt fa-4x mb-4"></i>
+                                <h4 class="display-4 mb-3">What is Data security?</h4>
+                                <p class="text-white-50">
+                                    Data security means protecting digital data, such as those
+                                    in a database, from destructive forces and from the unwanted
+                                    actions of unauthorized users, such as a cyberattack or a
+                                    data breach.
+                                </p>
+                                <h4 class="display-4 mb-3">
+                                    What are Data Security Standards (DSS)?
+                                </h4>
+                                <p class="text-white-50">
+                                    PCI DSS is a set of regulations created by 5 major payment
+                                    card brands: Visa, MasterCard, American Express, Discover,
+                                    and JCB. The latest version of PCI DSS (version 3.2) was
+                                    released in April 2016 with the Council setting these
+                                    requirements for any business that processes credit or debit
+                                    card transactions. In a nutshell, DSS requires that your
+                                    organization is compliant with 12 general data security
+                                    requirements that include over 200 sub-requirements. The
+                                    types of requirements and sub-requirement ultimately depend
+                                    on your business and how many credit card transactions that
+                                    you perform on a yearly basis. Just checking the PCI DSS
+                                    compliance boxes isnt the best route to travel if your
+                                    organization wants to ensure effective protection of every
+                                    data security situation.
+                                </p>
+                                <h4 class="display-4 mb-3">Our offers for (DS)</h4>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2">
+                                        <button type="button" class="btn btn-outline-success" data-bs-toggle="collapse"
+                                            data-bs-target="#category-1" aria-expanded="false"
+                                            aria-controls="category-1">
+                                            Category-1
+                                        </button>
+                                        <div class="collapse" id="category-1">
+                                            <div class="card card-body bg-dark text-white-50">
+                                                (Build and Maintain a Secure Network) focuses on the
+                                                network security of your cardholder data environment
+                                                (CDE). Your organization must address the creation and
+                                                maintenance of a network protected from malicious
+                                                individuals via physical and virtual means. Using
+                                                hardware and/or software firewall technology can help
+                                                to provide perimeter protection for a CDE, thus
+                                                helping to ensure that public information cannot be
+                                                used by hackers to access your systems.
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mb-2">
+                                        <button type="button" class="btn btn-outline-success" data-bs-toggle="collapse"
+                                            data-bs-target="#category-2" aria-expanded="false"
+                                            aria-controls="category-2">
+                                            Category-2
+                                        </button>
+                                        <div class="collapse" id="category-2">
+                                            <div class="card card-body bg-dark text-white-50">
+                                                (Protect Cardholder Data) focuses on guidance and
+                                                testing procedures for data retention, transmission
+                                                and disposal policies. Basically, this category is a
+                                                reflection on how your company handles cardholder data
+                                                (CHD) when it is necessary and how it disposes of said
+                                                data when it is unnecessary to store it.
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mb-2">
+                                        <button class="btn btn-outline-success" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#Category-3" aria-expanded="false"
+                                            aria-controls="Category-3">
+                                            Category 3
+                                        </button>
+                                        <div class="collapse" id="Category-3">
+                                            <div class="card card-body bg-dark text-white-50">
+                                                (Maintain a Vulnerability Management Program) focuses
+                                                on assessing system and application vulnerabilities
+                                                (current and future). The Council provides guidance
+                                                and testing procedures that pertain to malware,
+                                                software patches, policies and internal procedures for
+                                                the basis of this category.
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mb-2">
+                                        <button class="btn btn-outline-success" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#Category-4" aria-expanded="false"
+                                            aria-controls="Category-4">
+                                            Category 4
+                                        </button>
+                                        <div class="collapse" id="Category-4">
+                                            <div class="card card-body bg-dark text-white-50">
+                                                (Implement Strong Access Control Measures) focuses on
+                                                limiting availability to authorized persons or
+                                                applications via the creation of strong security
+                                                mechanisms. Remaining selective as to who retains PCI
+                                                administrative access allows your organization to
+                                                control measures that allow you to achieve security
+                                                and PCI DSS compliance.
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SERVICES > DEVELOPMENT OFFCANVAS -->
+                <!-- SERVICES > SEO OFFCANVAS -->
+                <!-- SERVICES > DATA BASE OFFCANVAS -->
+                <!-- SERVICES > DATA SECURITY OFFCANVAS -->
+            </div>
+        </section>
+        <!-- CONTACT -->
+        <section id="Contact" class="ms-3">
+            <h2 class="font-monospace mt-4 text-uppercase">contact me</h2>
+            <form class='contact_form'>
+                <div class="row mb-3">
+                    <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="name form-control" id="inputName">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="email form-control" id="inputEmail3">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputSub" class="col-sm-2 col-form-label">Subject</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="subject form-control" id="inputSub">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputMessage" class="col-sm-2 col-form-label">Message</label>
+                    <div class="col-sm-10">
+                        <textarea class="msg form-control" id="inputMessage" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="position-fixed bottom-0 bg-success text-center mt-5">
+        <small class="col">&copy; 2020 Menyhar Media. All rights reseved</small>
+    </footer>
+    <!-- script Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(
+            document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        );
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+
+        const form = document.querySelector('.contact_form');
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const name = document.querySelector('.name');
+            const email = document.querySelector('.email');
+            const msg = document.querySelector('.msg');
+            const subject = document.querySelector('.subject');
+            var template_params = {
+                "subject": subject.value,
+                "from_name": name.value,
+                "to_name": email.value,
+                "message": msg.value
+            }
+            emailjs.send('service_twm9hak', 'template_s5tucrn', template_params)
+                .then(function (response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    alert("Thank You For Contacting Me");
+                    name.value = "";
+                    email.value = "";
+                    msg.value = "";
+                    subject.value = "";
+                }, function (error) {
+                    console.log('FAILED...', error);
+                });
+        });
+
+
+    </script>
+</body>
+
+</html>
